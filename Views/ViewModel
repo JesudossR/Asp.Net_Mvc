@@ -1,0 +1,10 @@
+namespace MyAspNetMvcApp.Models
+{
+    public class YourViewModel
+    {
+        public string SomeProperty { get; set; }
+        public string SomeMultilineProperty { get; set; }
+        public string SomeSelectedValue { get; set; }
+        public IEnumerable<SelectListItem> Options { get; set; }
+    }
+}
